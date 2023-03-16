@@ -1,3 +1,8 @@
+//Tugas Alpro
+//Nur Ikhsanudin
+//A11.2022.14795
+
+
 #include <iostream>
 
 using std::cout;
