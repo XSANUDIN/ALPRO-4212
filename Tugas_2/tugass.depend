@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1679690163 source:e:\~ngoding\c++\fungsi\tugass\main.cpp
+	<iostream>
+	"fungsi.h"
+
+1679689793 e:\~ngoding\c++\fungsi\tugass\fungsi.h
+	<iostream>
+
+1679690215 source:e:\~ngoding\c++\fungsi\tugass\fungsi.cpp
+	<iostream>
+	"fungsi.h"
+
