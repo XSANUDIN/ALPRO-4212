@@ -89,7 +89,7 @@ int pilih=0;
                 }
 
                 else if(pilih==7){
-                    cout<<"x apakah bilangan ganjil"<<endl;
+                    cout<<"x apakah faktor dari bilangan"<<endl;
                     cout<<"Masukkan Nilai : ";cin>>x;
                     cout<<"Masukkan Faktor : ";cin>>y;
                     if(isFactor(x,y)){
