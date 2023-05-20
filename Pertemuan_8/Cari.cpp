@@ -37,12 +37,13 @@ void nilaiGT(int A[],int n){
     int genapk = -1;
     int igenapk = -1;
 
-    for (int i=0;i<n;i++){
-            if(A[i] % 2 ==0 &&(genapk == -1 || A[i]<genapk)){
-                genapk = A[i];
-                igenapk = i;
-            }
+    for (int i = 0; i < n; i++) {
+    if (!isOdd(A[i]) && (genapk == -1 || A[i] < genapk)) {
+        genapk = A[i];
+        igenapk = i;
+        }
     }
+    
     if(igenapk !=-1){
         cout << "Nilai genap terkecil dalam array adalah : " << genapk<<endl;
         cout << "Ada di Index : "<<igenapk<<endl;
