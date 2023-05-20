@@ -17,10 +17,10 @@ int main(){
     printArr(arr,n);
     nilaiGT(arr,n);
 
-    cout<<endl;
-    cout<<"Menguji Bilangan"<<endl;
-    cout<<"Masukkan Bilangan yang akan diuji :"<<endl;
-    cin>>n;
+    //cout<<endl;
+    //cout<<"Menguji Bilangan"<<endl;
+    //cout<<"Masukkan Bilangan yang akan diuji :"<<endl;
+    //cin>>n;
 
     //isOdd(n);
     //if (isOdd(n)){
