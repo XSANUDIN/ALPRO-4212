@@ -22,13 +22,13 @@ int main(){
     cout<<"Masukkan Bilangan yang akan diuji :"<<endl;
     cin>>n;
 
-    isOdd(n);
-    if (isOdd(n)){
-        cout<<"Bilangan ini adalah bilangan ganjil"<<endl;
-    }
-    else{
-        cout<<"Bilangan ini bukan bilangan ganjil"<<endl;
-    }
+    //isOdd(n);
+    //if (isOdd(n)){
+      //  cout<<"Bilangan ini adalah bilangan ganjil"<<endl;
+    //}
+    //else{
+      //  cout<<"Bilangan ini bukan bilangan ganjil"<<endl;
+    //}
 
 return 0;
 }
