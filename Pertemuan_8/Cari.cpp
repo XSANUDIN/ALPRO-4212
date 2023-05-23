@@ -6,7 +6,6 @@ void printArr(int A[],int n);
 void insertArr(int A[],int n);
 void nilaiGT(int A[],int n);
 int isOdd(int x);
-int isEven(int x);
 
 int main(){
     int n;
@@ -17,18 +16,6 @@ int main(){
     printArr(arr,n);
     nilaiGT(arr,n);
 
-    //cout<<endl;
-    //cout<<"Menguji Bilangan"<<endl;
-    //cout<<"Masukkan Bilangan yang akan diuji :"<<endl;
-    //cin>>n;
-
-    //isOdd(n);
-    //if (isOdd(n)){
-      //  cout<<"Bilangan ini adalah bilangan ganjil"<<endl;
-    //}
-    //else{
-      //  cout<<"Bilangan ini bukan bilangan ganjil"<<endl;
-    //}
 
 return 0;
 }
@@ -61,11 +48,6 @@ return x % 2 !=0;
 
 }
 
-int isEven(int x){
-
-return x % 2 ==0;
-
-}
 
 void printArr(int A[],int n){
     for(int i=0;i<n;i++){
